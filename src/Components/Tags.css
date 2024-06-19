@@ -1,0 +1,49 @@
+.tags{
+    color: #000;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: white;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    position: sticky;
+    z-index: 50;
+    top: 60px;
+    left: 16%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.miniTag{
+    border-radius: 15px;
+    height: 34px;
+    background-color: rgb(235,235,235);
+    width: fit-content;
+    border: 1px solid lightgray;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 3px 10px;
+}
+.next{
+    font-size: 18px !important;
+    color: rgb(139,139,139);
+}
+.miniTag.active{
+    background-color: rgb(54,54,54);
+    color: white;
+    border-radius: 15px;
+    height: 34px;
+    width: fit-content;
+    border: 1px solid lightgray;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 3px 10px;
+}
+.miniTag.active:hover{
+    background-color: rgb(92,92,92);
+}
+.miniTag:hover{
+    background-color: rgb(219,219,219);
+    cursor: pointer;
+}
